@@ -107,19 +107,19 @@
                 <form action="signup.php" method="POST">
                     <p class="username"> Username <br> <br>
                         <span class="photo">
-                            <img src="user_logo.png" height="26px" alt="">
+                            <img src="images/user_logo.png" height="26px" alt="">
                         </span>   
                      <input type="text"  name="name"  placeholder="Type your Username" >
                     </p>
                     <p class="username"> Email <br> <br>
                         <span class="photo-email">
-                            <img src="email.png" height="15px" alt="">
+                            <img src="images/email.png" height="15px" alt="">
                         </span>   
                      <input type="email"  name="email" placeholder="Type your Email" >
                     </p>
                     <p class="username"> Password <br><br> 
                         <span class="photo">
-                            <img src="password.png" height="25px" alt="">
+                            <img src="images/password.png" height="25px" alt="">
                         </span>
                         <input type="password" name="pass"  placeholder="Type your Password">
                     </p>

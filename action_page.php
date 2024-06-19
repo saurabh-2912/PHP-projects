@@ -33,6 +33,7 @@ while($row = mysqli_fetch_row($result)){
     }
     if($s==1){
     echo "you have logged in successfully .";
+    include "index.php";
 
     }
     else{

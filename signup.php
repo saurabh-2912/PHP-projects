@@ -130,26 +130,26 @@
 </style>
 <body>
     <div class="container">
-        <img src="login_page_bg.jpg" height="950px" width="100%" alt="">
+        <img src="images/login_page_bg.jpg" height="950px" width="100%" alt="">
         <div class="login_box">
             <h2 class="heading">Sign up</h2>
             <div class="form">
                 <form action="signup.php" method="POST">
                     <p class="username"> Username <br> <br>
                         <span class="photo">
-                            <img src="user_logo.png" height="26px" alt="">
+                            <img src="images/user_logo.png" height="26px" alt="">
                         </span>   
                      <input type="text"  name="name"  placeholder="Type your Username" >
                     </p>
                     <p class="username"> Email <br> <br>
                         <span class="photo-email">
-                            <img src="email.png" height="15px" alt="">
+                            <img src="images/email.png" height="15px" alt="">
                         </span>   
                      <input type="email"  name="email" placeholder="Type your Email" >
                     </p>
                     <p class="username"> Password <br><br> 
                         <span class="photo">
-                            <img src="password.png" height="25px" alt="">
+                            <img src="images/password.png" height="25px" alt="">
                         </span>
                         <input type="password" name="pass"  placeholder="Type your Password">
                     </p>

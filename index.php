@@ -121,13 +121,13 @@
                 <form action="action_page.php" method="POST">
                     <p class="username"> Email <br> <br>
                         <span class="photo">
-                            <img src="user_logo.png" height="26px" alt="">
+                            <img src="images/user_logo.png" height="26px" alt="">
                         </span>
                         <input type="email" name="email" placeholder="Type your Email">
                     </p>
                     <p class="username"> Password <br><br>
                         <span class="photo">
-                            <img src="password.png" height="25px" alt="">
+                            <img src="images/password.png" height="25px" alt="">
                         </span>
                         <input type="password" name="pass" placeholder="Type your Password">
                     </p>
