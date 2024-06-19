@@ -1,3 +1,33 @@
+
+
+
+<?php  
+    $hostname="127.0.0.1";
+    $username="root";
+    $password="";
+    $database='success';
+    
+    $conn=mysqli_connect($hostname,$username,$password,$database);
+    
+    if($_SERVER['REQUEST_METHOD']=='POST')
+    {
+        $name=$_POST['name'];
+        $email=$_POST['email'];
+        $pass=$_POST['pass'];
+    }
+    
+    $sql="INSERT INTO `signup` (`username`,`email`,`password`) VALUES ('$name','$email','$pass')";
+    $result=mysqli_query($conn,$sql);
+
+    if($result){
+        echo "you have successfully signed up"; 
+    }
+    else{
+        echo " signed up Failed "; 
+       }
+    ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -134,6 +164,4 @@
     </div>
    
 </body>
-
-
 </html>

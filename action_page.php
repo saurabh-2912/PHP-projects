@@ -6,10 +6,9 @@ $database = "success";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 if ($conn) {
-    echo "connection  with database is successfully established";
 } else {
     die("sorry we failed to connect : " .
-        mysqli_connect_error());
+    mysqli_connect_error());
 }
 
 if($_SERVER['REQUEST_METHOD']=='POST')
@@ -26,22 +25,18 @@ $result = mysqli_query($conn,$sql);
 // echo "<br>";
 // echo "number of rows = " . $num ;
 $s=0;
-  while($row = mysqli_fetch_row($result)){
-   echo "<br>";
+while($row = mysqli_fetch_row($result)){
      if( $row[2]==$email && $row[3]==$pass)
      {
          $s=1;
+        }
     }
-  }
+    if($s==1){
+    echo "you have logged in successfully .";
 
-echo "<br>";
-echo "<br>";
-if($s==1){
-    require 'index.php';
-}
-else{
-    echo "login failed"; 
-
-}
-
+    }
+    else{
+        echo "login failed"; 
+        
+    }
 ?>

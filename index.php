@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LOGIN</title>
 </head>
 <style>
     .container {
@@ -86,6 +86,29 @@
         border-radius: 50px;
         cursor: pointer;
     }
+
+    .signup {
+        text-align: center;
+        position: absolute;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+        font-size: x-large;
+        color: rgb(90, 80, 80);
+        top: 690px;
+    }
+
+    .signup-link:link {
+        display: block;
+        text-decoration: none;
+        color: rgb(90, 80, 80);
+        margin: 30px;
+    }
+
+    .signup-link:HOVER {
+        display: block;
+        text-decoration: none;
+        color: rgb(60, 0, 255);
+        margin: 30px;
+    }
 </style>
 
 <body>
@@ -114,9 +137,12 @@
             <div class="forgot">
                 <a href="#" style="text-decoration: none; color: rgb(93, 75, 80);"> Forgot Password?</a>
             </div>
+            <div class="signup">
+                create account using <br>
+                <a href="signup_page.php" class="signup-link">SIGN-UP</a>
+            </div>
         </div>
     </div>
-
 </body>
 
 </html>
